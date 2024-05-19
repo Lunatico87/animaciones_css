@@ -337,9 +337,16 @@ ol {
 }
 /*Tablet*/
 @media (min-width: 576px) {
+  .cards, .ciudades {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .flip, .ciudad {
+    width: 48%;
+  }
 }
 /*Desktop*/
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .grid-container {
     grid-template-areas:
       "nav main"
@@ -378,17 +385,10 @@ ol {
     margin: 1rem 0;
     font-size: 1.8rem;
   }
-  .cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
   .flip {
     width: 32%;
   }
   /*presupuesto*/
-  .ciudades {
-    flex-direction: row;
-  }
   .ciudad {
     width: 32%;
   }
