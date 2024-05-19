@@ -17,15 +17,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>TravelMoon</title>
   </head>
   <body>
     <div class="grid-container">
-      <nav class="nav navbar navbar-expand-lg ">
+      <nav class="nav navbar navbar-expand-lg">
         <!--nav burger -->
         <div class="container-fluid">
-          <h1>TravelMoon</h1>
+          <p class="company">TravelM<span>oo</span>n</p>
           <button
             class="navbar-toggler"
             type="button"
@@ -77,10 +83,10 @@
           <div class="cards">
             <div class="flip flip-vertical">
               <div class="front tokyo">
-                <h1 class="text-shadow">TOKYO</h1>
+                <h3>TOKYO</h3>
               </div>
               <div class="back">
-                <h2>Angular</h2>
+                <h4>Angular</h4>
                 <p>
                   Good tools make application development quicker and easier to
                   maintain than if you did everything by hand..
@@ -89,10 +95,10 @@
             </div>
             <div class="flip flip-vertical">
               <div class="front osaka">
-                <h1 class="text-shadow">OSAKA</h1>
+                <h3 class="text-shadow">OSAKA</h3>
               </div>
               <div class="back">
-                <h2>Angular</h2>
+                <h4>Angular</h4>
                 <p>
                   Good tools make application development quicker and easier to
                   maintain than if you did everything by hand..
@@ -101,10 +107,10 @@
             </div>
             <div class="flip flip-vertical">
               <div class="front nara">
-                <h1 class="text-shadow">NARA</h1>
+                <h3 class="text-shadow">NARA</h3>
               </div>
               <div class="back">
-                <h2>Angular</h2>
+                <h4>Angular</h4>
                 <p>
                   Good tools make application development quicker and easier to
                   maintain than if you did everything by hand..
@@ -113,10 +119,10 @@
             </div>
             <div class="flip flip-vertical">
               <div class="front hiroshima">
-                <h1 class="text-shadow">Hiroshima</h1>
+                <h3 class="text-shadow">Hiroshima</h3>
               </div>
               <div class="back">
-                <h2>Angular</h2>
+                <h4>Angular</h4>
                 <p>
                   Good tools make application development quicker and easier to
                   maintain than if you did everything by hand..
@@ -125,10 +131,10 @@
             </div>
             <div class="flip flip-vertical">
               <div class="front kyoto">
-                <h1 class="text-shadow">KYOTO</h1>
+                <h3 class="text-shadow">KYOTO</h3>
               </div>
               <div class="back">
-                <h2>Angular</h2>
+                <h4>Angular</h4>
                 <p>
                   Good tools make application development quicker and easier to
                   maintain than if you did everything by hand..
@@ -137,10 +143,10 @@
             </div>
             <div class="flip flip-vertical">
               <div class="front hakone">
-                <h1 class="text-shadow">HAKONE</h1>
+                <h3 class="text-shadow">HAKONE</h3>
               </div>
               <div class="back">
-                <h2>Angular</h2>
+                <h4>Angular</h4>
                 <p>
                   Good tools make application development quicker and easier to
                   maintain than if you did everything by hand..
@@ -151,43 +157,65 @@
         </section>
 
         <section id="consejos">
-        <h2>Consejos utiles para viajar por Japon</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-          laudantium quia impedit fugit quae amet veritatis tenetur voluptate
-          asperiores, corrupti neque incidunt necessitatibus magnam similique
-          iste laborum! Ipsam, doloribus vel!
-        </p>
-    </section>
+          <h2>Consejos utiles para viajar por Japon</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            laudantium quia impedit fugit quae amet veritatis tenetur voluptate
+            asperiores, corrupti neque incidunt necessitatibus magnam similique
+            iste laborum! Ipsam, doloribus vel!
+          </p>
+        </section>
         <section id="presupuestos">
-        <h2>Presupuestos por ciudad</h2>
-        <p>
-          En la siguiente tabla puedes ver el presupuesto completo de estadia,
-          entretenimiento, transporte y extras.
-        </p>
-    </section>
+          <h2>Presupuestos por ciudad</h2>
+          <p>
+            En la siguiente tabla puedes ver el presupuesto completo de estadia,
+            entretenimiento, transporte y extras.
+          </p>
+        </section>
         <section id="contacto">
-        <h2>Contacto</h2>
-        <p>
-          Si deseas preguntarnos algo o contratar alguno de nuestros paquetes de
-          viaje puedes hacer de la siguiente manera:
-        </p>
-    </section>
-       
+          <h2>Contacto</h2>
+          <p>
+            Si deseas preguntarnos algo o contratar alguno de nuestros paquetes
+            de viaje puedes hacer de la siguiente manera:
+          </p>
+        </section>
       </main>
-      <footer>
-        <p>E-mail: alberto.luna87@hotmail.com</p>
-        <p>
-          Created by Lunatico87. 
-          All rights reserved. 2024 
-        </p>
-        <div>
-          <a href="https://github.com/Lunatico87"
-            ><i class="fa-brands fa-github fa-xl"></i
-          ></a>
-          <a href="https://instagram.com/beto_luna87"
-            ><i class="fa-brands fa-square-instagram fa-xl"></i
-          ></a>
+      <footer class="footer">
+        <div class="footer-left">
+          <h4>TravelM<span>oo</span>n</h4>
+          <br />
+          <p>Creado por Lunatico87</p>
+          <p>Todos los derechos reservados</p>
+        </div>
+
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+1.555.555.5555</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>
+              <a href="mailto:support@company.com"
+                >alberto.luna87@hotmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/Beto.Luna.V/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/beto_luna87/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/Lunatico87"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </div>
       </footer>
     </div>
